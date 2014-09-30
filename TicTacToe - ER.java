@@ -11,8 +11,8 @@ import java.util.Enumeration;
 		//0 is computer (O)
 		//1 is user     (X)
 		//unitGrid is an array for the tic tac toe arrangement:  0  1  2
-        //                                                       3  4  5
-        //                                                       6  7  8                                                                                                              
+        	//                                                       3  4  5
+        	//                                                       6  7  8                                                                                                              
 		
 		
 		//1.  I think I put way too much effort into this project. At the end, I feel like my code isn't very clever. My code is way too long.  
@@ -21,7 +21,7 @@ import java.util.Enumeration;
 		
 		private JRadioButton firstTurn = new JRadioButton("FirstTurn");//previously static
 		private JRadioButton secondTurn = new JRadioButton("SecondTurn");//previously static
-	    private int unitGrid[] = new int[]{-1, -1, -1, -1, -1, -1, -1, -1, -1};
+	    	private int unitGrid[] = new int[]{-1, -1, -1, -1, -1, -1, -1, -1, -1};
 	    
 		public TicTacToe(){
 			super("Tic Tac Toe");
@@ -44,10 +44,10 @@ import java.util.Enumeration;
 			bg.add(button);
 				
 			Container cp = getContentPane();
-		    cp.setLayout(new FlowLayout());
-		    cp.add(firstTurn);
-		    cp.add(secondTurn);
-		    cp.add(button);
+		    	cp.setLayout(new FlowLayout());
+		    	cp.add(firstTurn);
+		    	cp.add(secondTurn);
+		    	cp.add(button);
 		}
 		
 		//getters and setters

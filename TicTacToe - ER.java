@@ -24,9 +24,7 @@ import java.util.Enumeration;
 	    private int unitGrid[] = new int[]{-1, -1, -1, -1, -1, -1, -1, -1, -1};
 	    
 		public TicTacToe(){
-			super("Tic Tac Toe");
-			System.out.println("console working");
-			
+		
 			//radiobutton for first player
 			firstTurn = new JRadioButton("move first");
 			firstTurn.setSelected(true);

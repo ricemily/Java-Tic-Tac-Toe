@@ -42,10 +42,10 @@ import java.util.Enumeration;
 			bg.add(button);
 				
 			Container cp = getContentPane();
-		    cp.setLayout(new FlowLayout());
-		    cp.add(firstTurn);
-		    cp.add(secondTurn);
-		    cp.add(button);
+		    	cp.setLayout(new FlowLayout());
+		    	cp.add(firstTurn);
+		    	cp.add(secondTurn);
+		    	cp.add(button);
 		}
 		
 		//getters and setters
